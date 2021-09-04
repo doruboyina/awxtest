@@ -1,0 +1,6 @@
+---
+- name: media playbook
+  hosts: localhost
+  tasks:
+  - name: count of processors
+    command: nproc
