@@ -1,5 +1,6 @@
 ---
 - name: media playbook
+  host: '192.168.33.13'
   tasks:
   - name: count of processors
     command: nproc
