@@ -1,6 +1,9 @@
 ---
 - name: media playbook
-  hosts: 192.168.33.14
+  hosts: localhost
   tasks:
   - name: count of processors
     command: nproc
+    register: op
+  - debug:
+      msg: "number of processors {{ op }}"
