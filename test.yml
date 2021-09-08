@@ -1,6 +1,7 @@
 ---
 - name: media playbook
   hosts: '192.168.33.14'
+  remote_user: ansible 
   tasks:
   - name: count of processors
     command: 'echo {{ usercredentials }}'
