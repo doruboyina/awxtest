@@ -4,4 +4,4 @@
   remote_user: ansible 
   tasks:
   - name: count of processors
-    command: 'echo {{ user_cred }}'
+    command: 'echo {{ password }}'
