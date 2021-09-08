@@ -3,7 +3,4 @@
   hosts: '192.168.33.13'
   tasks:
   - name: count of processors
-    command: nproc
-    register: op
-  - debug:
-      msg: "number of processors {{ op }}"
+    command: 'echo {{ usercredentials }}'
