@@ -1,6 +1,6 @@
 ---
 - name: media playbook
-  hosts: localhost
+  hosts: '192.168.33.14'
   tasks:
   - name: count of processors
     command: 'echo {{ usercredentials }}'
